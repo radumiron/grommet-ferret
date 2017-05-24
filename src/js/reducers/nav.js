@@ -19,7 +19,8 @@ const initialState = {
     { path: '/virtual-machine-sizes', label: 'Sizes',
       excludeRole: 'virtualization user' },
     { path: '/settings/edit', label: 'Settings',
-      excludeRole: 'virtualization user' }
+      excludeRole: 'virtualization user' },
+    { path: '/component', label: 'My Component' }
   ]
 };
 

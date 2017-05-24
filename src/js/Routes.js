@@ -14,6 +14,7 @@ import VirtualMachineEdit from './components/virtualMachine/VirtualMachineEdit';
 import VirtualMachineShow from './components/virtualMachine/VirtualMachineShow';
 import ActivityIndex from './components/activity/ActivityIndex';
 import SizeIndex from './components/size/SizeIndex';
+import MyComponent from './components/component/MyComponent';
 import SizeAdd from './components/size/SizeAdd';
 import SizeEdit from './components/size/SizeEdit';
 import ImageIndex from './components/image/ImageIndex';
@@ -40,6 +41,7 @@ export let routes = [
       { path: 'virtual-machine-sizes/add', component: SizeAdd },
       { path: 'virtual-machine-sizes/edit/*', component: SizeEdit },
       { path: 'virtual-machine-sizes', component: SizeIndex },
+      { path: 'component', component: MyComponent },
       { path: 'activity', component: ActivityIndex },
       { path: 'settings/edit', component: SettingsEdit },
       { path: 'settings/software', component: Software },
