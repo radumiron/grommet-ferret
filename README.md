@@ -20,21 +20,22 @@ To run this application, execute the following commands:
     $ cd grommet-ferret
     $ npm install
     ```
-  2. Start the server
+  2. Run a build
+  
+    $ npm run build
 
+  3. Start the server
+    
+    $ npm run start
+
+  4. Start the UI development server
     ```
-    $ cd server
     $ gulp dev
     ```
 
-  3. Start the UI development server
-    ```
-    $ gulp dev
-    ```
+  5. Login credentials: `Username` any string that looks like an email address and any `Password` (not used or stored).
 
-  4. Login credentials: `Username` any string that looks like an email address and any `Password` (not used or stored).
-
-  5. Check Ferret production server
+  6. Check Ferret production server
     ```
     $ cd grommet-ferret
     $ gulp dist
