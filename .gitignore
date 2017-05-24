@@ -11,3 +11,9 @@ node_modules
 
 # temporary while yarn does not fix problems with bad hash
 yarn.lock
+
+.idea/grommet-ferret.iml
+.idea/misc.xml
+.idea/modules.xml
+.idea/vcs.xml
+.idea/workspace.xml
