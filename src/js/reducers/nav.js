@@ -15,6 +15,7 @@ const initialState = {
     { path: '/virtual-machines', label: 'Virtual Machines' },
     { path: '/activity', label: 'Activity' },
     { path: '/utilization', label: 'Utilization' },
+    { path: '/arbitrage', label: 'Arbitrage' },
     { path: '/images', label: 'Images', excludeRole: 'virtualization user' },
     { path: '/virtual-machine-sizes', label: 'Sizes',
       excludeRole: 'virtualization user' },

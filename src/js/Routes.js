@@ -7,6 +7,7 @@ import Status from './components/Status';
 import SettingsEdit from './components/settings/SettingsEdit';
 import Dashboard from './components/dashboard/Dashboard';
 import Utilization from './components/Utilization';
+import Arbitrage from './components/Utilization';
 import VirtualMachineIndex from
   './components/virtualMachine/VirtualMachineIndex';
 import VirtualMachineAdd from './components/virtualMachine/VirtualMachineAdd';
@@ -31,6 +32,7 @@ export let routes = [
       { path: 'status', component: Status },
       { path: 'dashboard', component: Dashboard },
       { path: 'utilization', component: Utilization },
+      { path: 'arbitrage', component: Arbitrage },
       { path: 'virtual-machines/add', component: VirtualMachineAdd },
       { path: 'virtual-machines/edit/*', component: VirtualMachineEdit },
       { path: 'virtual-machines/*', component: VirtualMachineShow },
